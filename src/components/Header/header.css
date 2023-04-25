@@ -1,0 +1,25 @@
+nav {
+    background-color: #1C2B35;
+    padding: 2rem 10rem;
+    justify-content: space-between;
+}
+
+.nav-link a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-size: 1.6rem;
+    transition: all 0.4s;
+}
+
+.nav-link a:hover {
+    color: #fff;
+}
+
+.logo {
+    width: 10rem;
+}
+
+.logo img {
+    width: 100%;
+}

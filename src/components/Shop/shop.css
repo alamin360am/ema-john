@@ -1,0 +1,36 @@
+.shop-container {
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-container {
+    padding: 5rem;
+}
+
+.product-summary {
+    height: calc(100vh - 7.5rem);
+    padding: 1rem;
+    background-color: rgba(255, 153, 0, 0.3);
+}
+
+.product-summary h4 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .product-container {
+        padding: 2rem;
+    }
+
+    .shop-container {
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-container {
+        padding: 1rem;
+    }
+    .shop-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
